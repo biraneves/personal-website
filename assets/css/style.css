@@ -1,0 +1,31 @@
+body {
+    background-color: cadetblue;
+    font-family: 'Arial';
+}
+
+.menu {
+    background-color: white;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.site-title,
+.site-subtitle {
+    color: whitesmoke;
+    text-align: center;
+}
